@@ -1,0 +1,85 @@
+Diagnostics file initialized on Sun Mar 31 16:49:36 PDT 2024
+
+================================================================================================
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@255990cc
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@51c929ae
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    logging.scontrol.verbose=
+    techsupport.archive.location=
+    techsupport.create.on.exit=true
+    techsupport.enabled=
+    techsupport.single.archive.mode=
+
+DIAGNOSTICS INFO:
+Preferences class: com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences
+Current packages dir: D:\TestImpactAnalysis\parabank\.coverage\com.parasoft.xtest.techsupport
+Total registered items: 6
+   com.parasoft.xtest.techsupport.internal.EnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LogsTechSupportItem, name: Source control output, key: logging.scontrol.verbose
+   com.parasoft.xtest.techsupport.internal.DiagnosticsTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.ConsoleTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LicenseTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.TestConfigurationTechSupportItem, key: null
+
+================================================================================================
+SERVICES PROFILER
+================================================================================================
+Services provider profiler (COUNT > 1):
++ --------------------------------------------- + ----- + --------- +
+| NAME                                          | COUNT | TOTAL [s] |
++ --------------------------------------------- + ----- + --------- +
+| getService(IApplication)                      | 2     | 0.0       |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.009     |
++ --------------------------------------------- + ----- + --------- +
+TOTAL: 0.009
+================================================================================================
+SERVICES INSTANCES COUNT
+================================================================================================
+
++ -------------------------------------------------------------------------- + ----- +
+| Class                                                                      | Count |
++ -------------------------------------------------------------------------- + ----- +
+| com.parasoft.xtest.common.profiler.ProfilerStatisticsService               | 1     |
+| com.parasoft.xtest.techsupport.CommonTechSupportItemsProvider              | 1     |
+| com.parasoft.xtest.techsupport.TechSupportService                          | 1     |
+| com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences | 1     |
++ -------------------------------------------------------------------------- + ----- +
+================================================================================================
+PROFILER RESULTS
+================================================================================================
+
+Coverage Tool Profiler
++ -------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ -------------------- + ----- + --------- + ------- + ------- + ------- +
+| CoverageRunner.run() | 1     | 0.032     | 0.032   | 0.032   | 0.032   |
++ -------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.032s
+================================================================================================
+MEMORY STATISTICS
+================================================================================================
+
++ -------------- + --------- +
+| Memory Metric  | Size [MB] |
++ -------------- + --------- +
+| Current memory | 9         |
+| Max memory     | 8508      |
+| Total memory   | 11        |
++ -------------- + --------- +
+================================================================================================
+LOG ISSUES
+================================================================================================
+
++ ------------- + ----- +
+| Logging Level | Count |
++ ------------- + ----- +
+| TRACE         | 0     |
+| TIME          | 0     |
+| DEBUG         | 15    |
+| INFO          | 5     |
+| WARN          | 2     |
+| ERROR         | 0     |
+| FATAL         | 0     |
++ ------------- + ----- +

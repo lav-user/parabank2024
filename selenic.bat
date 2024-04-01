@@ -19,7 +19,7 @@ set PATH=%SELENIC_HOME%;%PATH%
 echo ======================Create baseline coverage from master======================
 
 echo "**1/7** checking out master branch"
-call git checkout master
+call "C:\Program Files\Git\bin\git" checkout master
 
 echo "**2/7** packaging parabank war"
 call mvn clean package -DskipTests
@@ -36,28 +36,19 @@ echo "**4/7** Running jtestcov to create a baseline coverage.xml"
 call java -jar %SELENIC_HOME%\coverage\Java\jtestcov\jtestcov.jar coverage -selenic ^
     -app target\parabank-3.0.0-SNAPSHOT.war ^
     -include com\parasoft\parabank/** ^
-    -runtime runtime_coverage ^
+    -runtime D:\TestImpactAnalysis\parabank\runtime_coverage ^
     -report coverage_report ^
     -settings %SELENIC_HOME%\selenic.properties ^
     -showdetails
 
 echo ======================Run impacted tests from selenium-demo branch======================
 
-echo "**5/7** checking out selenium-demo branch"
-call git checkout selenium-demo
+echo "**5/7** checking out selenium-demo branch1"
+call "C:\Program Files\Git\bin\git" checkout selenium-demo
 
 echo "**6/7** packaging parabank-demo war"
 call mvn clean package -DskipTests
 
 echo "**7/7** Running impacted tests"
-call mvn
-    -Dselenic.home=%SELENIC_HOME% ^
-    -Dselenic.coverage.binaries=target\parabank-3.0.0-selenium-demo-SNAPSHOT.war ^
-    -Dselenic.coverage.binaries.includes=com\parasoft\parabank\** ^
-    -Dselenic.coverage.baseline=coverage_report\coverage.xml ^
-    -Dselenic.coverage.showdetails=true ^
-    -DargLine=-javaagent:%SELENIC_HOME%\selenic_agent.jar=captureDom=true,selfHealing=true ^
-    cargo:start ^
-    com.parasoft:selenic-maven-plugin:1.0.0-SNAPSHOT:impacted-tests ^
-    failsafe:integration-test ^
-    cargo:stop
+call mvn clean -Dselenic.home=D:\TestImpactAnalysis\parasoft_selenic_2024.1.1 -Dselenic.coverage.binaries=target\parabank-3.0.0-selenium-demo-SNAPSHOT.war -Dselenic.coverage.binaries.includes=com\parasoft\parabank\** -Dselenic.coverage.baseline=D:\TestImpactAnalysis\parabank\coverage_report\coverage.xml -Dselenic.coverage.showdetails=true -DargLine="-javaagent:D:\TestImpactAnalysis\parasoft_selenic_2024.1.1\selenic_agent.jar=captureDom=true,selfHealing=true" cargo:start com.parasoft:selenic-maven-plugin:1.0.0-SNAPSHOT:impacted-tests failsafe:integration-test cargo:stop
+

@@ -1,0 +1,447 @@
+Diagnostics file initialized on Mon Apr 01 10:17:36 PDT 2024
+
+================================================================================================
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@7bdf6bb7
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    logging.scontrol.verbose=
+    techsupport.archive.location=
+    techsupport.create.on.exit=true
+    techsupport.enabled=
+    techsupport.single.archive.mode=
+
+DIAGNOSTICS INFO:
+Preferences class: com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences
+Current packages dir: D:\TestImpactAnalysis\parabank\.coverage\com.parasoft.xtest.techsupport
+Total registered items: 6
+   com.parasoft.xtest.techsupport.internal.EnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LogsTechSupportItem, name: Source control output, key: logging.scontrol.verbose
+   com.parasoft.xtest.techsupport.internal.DiagnosticsTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.ConsoleTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LicenseTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.TestConfigurationTechSupportItem, key: null
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@1a1d3c1a
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    _dtp.user.default=false
+    _oidc.callback.port.choosing.mode=automatically
+    _oidc.scopes.use.default=true
+    console.activate.on.text=false
+    console.verbosity.level=high
+    dtp.context.path=
+    dtp.password=>>hidden<<
+    dtp.port=8443
+    dtp.url=https://35.92.154.15:8443
+    dtp.user=demo
+    license.start_deactivated=false
+    oidc.callback.host=localhost
+    oidc.callback.timeout=60
+    oidc.cli.mode=DeviceCode
+    oidc.devicecode.token.file=D:\TestImpactAnalysis\parabank\.coverage\oidc_device_code
+    oidc.scopes=openid profile offline_access
+    parasoft.user=lesambadu
+    selenic.license.custom_edition_features=Selenic,API Test Creation with SOAtest,Automation,Generate Recommendations,Performance Benchmarking,Publish to DTP,Quick Fix,Selenium Test Creation,Self-Healing,Test Impact Analysis
+    selenic.license.enabled=true
+    selenic.license.network.edition=custom_edition
+    selenic.license.network.type=ls
+    selenic.license.use_network=true
+    techsupport.create.on.exit=true
+    use.default.user.name=true
+
+DIAGNOSTICS INFO:
+Registered license definition providers:
+    com.parasoft.xtest.coverage.all.license.SelenicLicenseDefinitionProvider
+
+License requirements statuses:
++ ---------------------------------- + ------------- +
+| Requirement                        | Enabled/Limit |
++ ---------------------------------- + ------------- +
+| Max-Parallel-Jobs-Value            | 0             |
+| Max-Testables-Value                | 0             |
+| Source-Control                     | false         |
+| LLM-Integration                    | false         |
+| Bug-Detective                      | false         |
+| Embedded-Testing                   | false         |
+| Concerto-Access                    | false         |
+| Code-Review                        | false         |
+| Security                           | false         |
+| Parameterization                   | false         |
+| Mass-Creation                      | false         |
+| Enforce-Max-Errors                 | false         |
+| XML-Report-Generation              | false         |
+| API-Test-Creation                  | false         |
+| Quick-Fix                          | false         |
+| Generate-Recommendations           | false         |
+| Unit-Testing                       | false         |
+| Application-Monitoring             | false         |
+| DTP-Access                         | false         |
+| Rule-Wizard                        | false         |
+| Sniffer                            | false         |
+| Email-Reports                      | false         |
+| Max-Unit-Test-Bulk-Testables-Value | false         |
+| Performance-Benchmarking           | false         |
+| Team-Share-Edit                    | false         |
+| Command-Line-Execution             | false         |
+| Team-Share-Access                  | false         |
+| Runtime-Error-Detection            | false         |
+| Spring-Framework                   | false         |
+| Self-Healing                       | false         |
+| Team-Share-Results-Upload          | false         |
+| Native-Tests-Import                | false         |
+| Flow-Analysis-Data                 | false         |
+| Coding-Standards                   | false         |
+| Flow-Analysis                      | false         |
+| Change-Based-Testing               | true          |
+| Automation                         | true          |
+| Coverage                           | true          |
+| Main                               | true          |
++ ---------------------------------- + ------------- +
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.telemetry.TelemetryReporter@709f3f29
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Settings from TelemetryReporter:
+PARASOFT_TELEMETRY_KEY: not empty
+PARASOFT_TELEMETRY_DISABLED: null
+Disabled permanently: true
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.oidc.OidcService@670f7bfc
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    oidc.client.secret=>>not set<<
+    oidc.keystore.password=>>not set<<
+
+DIAGNOSTICS INFO:
+OpenID Connect Service is not enabled.
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@1d63ec05
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Connection settings: 
+    User: demo
+    Password: >>hidden<<
+    Project: 
+    Server: https://35.92.154.15:8443
+
+Available services: 
+    dataCollectorV2 : https://35.92.154.15:8082/api/v2/dataCollector
+    testConfigurationsExtended : https://35.92.154.15:8443/grs/api/v1/testConfigurations
+    existingLocalSourceCopy : https://35.92.154.15:8082/api/v1/existingLocalSourceCopy
+    rules : https://35.92.154.15:8443/grs/api/v1/rules
+    tools : https://35.92.154.15:8443/grs/api/v1/tools
+    changeExplorer : https://35.92.154.15:8443/grs/dtp/explorers/change
+    priorities : https://35.92.154.15:8443/grs/api/v1/priorities
+    staticAnalysisViolations : https://35.92.154.15:8443/grs/api/v1/staticAnalysisViolations
+    builds : https://35.92.154.15:8443/grs/api/v1/builds
+    metricsExplorer : https://35.92.154.15:8443/grs/dtp/explorers/metrics
+    violationsExplorer : https://35.92.154.15:8443/grs/dtp/explorers/violations
+    reportedResourcesScmRepositories : https://35.92.154.15:8443/grs/api/v1/reportedResourcesScmRepositories
+    localSettings : https://35.92.154.15:8443/grs/api/v1/dtpServices/localSettings
+    coverage : https://35.92.154.15:8443/grs/api/v1/coverage
+    staticAnalysisViolationsMetadata : https://35.92.154.15:8443/grs/api/v1/staticAnalysisViolations/metadata
+    dynamicAnalysisTestCases : https://35.92.154.15:8443/grs/api/v1/dynamicAnalysisTestCases
+    testExplorer : https://35.92.154.15:8443/grs/dtp/explorers/test
+    filters : https://35.92.154.15:8443/grs/api/v1/filters
+    dataCollector : https://35.92.154.15:8082/api/v1/dataCollector
+    coverageExplorer : https://35.92.154.15:8443/grs/dtp/explorers/coverage
+    ruleMapResources : https://35.92.154.15:8443/grs/api/v1/testConfigurations/ruleMaps/resources
+    license : https://35.92.154.15:8443/grs/api/v1/license/token
+    testConfigurations : https://35.92.154.15:8443/grs/api/v1/testConfigurations
+    licenseServer : https://35.92.154.15:8443/licenseserver/api/v1
+    reportCenter : https://35.92.154.15:8443/grs/index.jsp
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.reports.xml.XMLReporterService@5f5b5ca4
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: false
+================================================================================================
+LOCAL SETTINGS:
+    build.id=[undefined]
+    exec.env=[undefined]
+    issue.tracking.tags=[undefined]
+    none=[undefined]
+    report.active_rules=[undefined]
+    report.archive=[undefined]
+    report.assoc.url.=[undefined]
+    report.associations=[undefined]
+    report.authors_details=[undefined]
+    report.contexts_details=[undefined]
+    report.coverage.images=[undefined]
+    report.coverage.limit=[undefined]
+    report.coverage.line.hashes=[undefined]
+    report.coverage.runtime.data=false
+    report.coverage.version=[undefined]
+    report.custom.extension=[undefined]
+    report.custom.xsl.file=[undefined]
+    report.developer_errors=[undefined]
+    report.developer_reports=[undefined]
+    report.dtp.publish.src=[undefined]
+    report.dtp.publish=[undefined]
+    report.failed_tests_only=[undefined]
+    report.file.name=[undefined]
+    report.format=none
+    report.graph.period=[undefined]
+    report.graph.start_date=[undefined]
+    report.graphs=[undefined]
+    report.location=D:\TestImpactAnalysis\parabank\coverage_report
+    report.metadata=[undefined]
+    report.metrics.attributes=[undefined]
+    report.mlearning.attributes=[undefined]
+    report.partial=[undefined]
+    report.rules=[undefined]
+    report.scontrol=[undefined]
+    report.separate_vm.launch.file=[undefined]
+    report.separate_vm.xmx=[undefined]
+    report.separate_vm=[undefined]
+    report.setup.problems.category_limit=[undefined]
+    report.setup.problems.console=[undefined]
+    report.setup.problems.display_limit=[undefined]
+    report.setup.problems=[undefined]
+    report.statistics=[undefined]
+    report.suppressed_msgs=[undefined]
+    report.test_params=[undefined]
+    report.test_suites_only=[undefined]
+    report.testcases_details=[undefined]
+    report.transformer.reporter=[undefined]
+    session.tag=[undefined]
+
+DIAGNOSTICS INFO:
+Registered reports services :
+    com.parasoft.xtest.reports.internal.ReportsService
+    Transformers :
+        com.parasoft.xtest.reports.internal.transformers.XMLReportTransformer id=xml name=XML
+Registered reports publishers :
+    com.parasoft.xtest.coverage.all.internal.XRestCoverageReportPublisher enabled=false expectedReportType=disk_report
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.coverage.all.CoverageServicesRegistry$3@7180e701
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+Registered coverage services:
+    com.parasoft.xtest.coverage.CoverageService coverage types=
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.coverage.all.CoverageServicesRegistry$4@4e2c95ee
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+
+================================================================================================
+SERVICE: com.parasoft.xtest.coverage.all.CoverageServicesRegistry$5@d0ec63
+CONTEXT: com.parasoft.xtest.coverage.all.CoverageContextWithConsole@1bc53649
+LICENSE ENABLED: true
+================================================================================================
+DIAGNOSTICS INFO:
+    (Not available)
+================================================================================================
+SERVICES PROFILER
+================================================================================================
+Services provider profiler (COUNT > 1):
++ --------------------------------------------- + ----- + --------- +
+| NAME                                          | COUNT | TOTAL [s] |
++ --------------------------------------------- + ----- + --------- +
+| getService(IParallelRunner)                   | 3     | 0.0       |
+| getService(IProfilerService)                  | 9     | 0.0       |
+| getService(IProxySettingsProviderService)     | 7     | 0.0       |
+| getService(IProfilerStatisticsService)        | 9     | 0.0       |
+| getService(IApplication)                      | 24    | 0.0       |
+| getService(ICoverageDataEngine)               | 2     | 0.0       |
+| getService(ISystemService)                    | 2     | 0.001     |
+| getService(ICoverageService)                  | 4     | 0.002     |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.008     |
+| getService(IOidcService)                      | 4     | 0.009     |
+| getService(ITelemetryReporter)                | 2     | 0.017     |
+| getServices(IPreferences)                     | 15    | 0.033     |
+| getService(ILicenseService)                   | 5     | 0.033     |
+| getService(IDtpServiceRegistry)               | 3     | 1.357     |
++ --------------------------------------------- + ----- + --------- +
+TOTAL: 1.46
+================================================================================================
+SERVICES INSTANCES COUNT
+================================================================================================
+
++ -------------------------------------------------------------------------- + ----- +
+| Class                                                                      | Count |
++ -------------------------------------------------------------------------- + ----- +
+| com.parasoft.jtest.components.jtestcov.JtestCoverageDataEngine             | 1     |
+| com.parasoft.jtest.core.JtestTelemetryConfiguration                        | 1     |
+| com.parasoft.xtest.common.SystemService                                    | 1     |
+| com.parasoft.xtest.common.dtp.DtpPreferences                               | 1     |
+| com.parasoft.xtest.common.dtp.DtpServiceRegistry                           | 1     |
+| com.parasoft.xtest.common.httpclient.DefaultProxySettingsProvider          | 1     |
+| com.parasoft.xtest.common.locations.LocationsManager                       | 1     |
+| com.parasoft.xtest.common.oidc.OidcService                                 | 1     |
+| com.parasoft.xtest.common.preferences.GeneralPreferences                   | 1     |
+| com.parasoft.xtest.common.preferences.OidcPreferences                      | 1     |
+| com.parasoft.xtest.common.profiler.ProfilerStatisticsService               | 1     |
+| com.parasoft.xtest.common.telemetry.TelemetryReporter                      | 1     |
+| com.parasoft.xtest.common.variables.AnalysisTypeVariableProvider           | 1     |
+| com.parasoft.xtest.common.variables.ConfigNameVariableProvider             | 1     |
+| com.parasoft.xtest.common.variables.DtpProjectVariableProvider             | 1     |
+| com.parasoft.xtest.common.variables.DynamicVariablesResolver               | 1     |
+| com.parasoft.xtest.common.variables.EnvironmentVariablesResolver           | 1     |
+| com.parasoft.xtest.common.variables.ExecEnvVariableProvider                | 1     |
+| com.parasoft.xtest.common.variables.GeneralProjectVariableProvider         | 1     |
+| com.parasoft.xtest.common.variables.JvmPropertyVariableProvider            | 1     |
+| com.parasoft.xtest.common.variables.LocalSettingVariableProvider           | 1     |
+| com.parasoft.xtest.common.variables.ScontrolBranchVariableProvider         | 1     |
+| com.parasoft.xtest.common.variables.ToolNameVariableProvider               | 1     |
+| com.parasoft.xtest.common.variables.UserNameVariableProvider               | 1     |
+| com.parasoft.xtest.coverage.CoverageService                                | 1     |
+| com.parasoft.xtest.coverage.all.CoverageFlowController                     | 1     |
+| com.parasoft.xtest.coverage.all.CoverageServicesRegistry$3                 | 1     |
+| com.parasoft.xtest.coverage.all.CoverageServicesRegistry$4                 | 1     |
+| com.parasoft.xtest.coverage.all.CoverageServicesRegistry$5                 | 1     |
+| com.parasoft.xtest.coverage.all.analyzer.BinaryAnalyzer                    | 1     |
+| com.parasoft.xtest.coverage.all.internal.XRestCoverageReportPublisher      | 1     |
+| com.parasoft.xtest.coverage.all.license.SelenicLicenseDefinitionProvider   | 1     |
+| com.parasoft.xtest.coverage.factories.LineCoverageFactory                  | 1     |
+| com.parasoft.xtest.lic.client.LicenseNetworkAdvancedPreferences            | 1     |
+| com.parasoft.xtest.lic.client.LicensePreferences                           | 1     |
+| com.parasoft.xtest.lic.client.internal.service.LicenseService              | 1     |
+| com.parasoft.xtest.reports.internal.ReportsService                         | 1     |
+| com.parasoft.xtest.reports.internal.transformers.HtmlReportTransformer     | 1     |
+| com.parasoft.xtest.reports.internal.transformers.XMLReportTransformer      | 1     |
+| com.parasoft.xtest.reports.txt.CoverageConsoleReporterService              | 1     |
+| com.parasoft.xtest.reports.xml.CoverageReporterService                     | 1     |
+| com.parasoft.xtest.reports.xml.XMLReporterService                          | 1     |
+| com.parasoft.xtest.techsupport.CommonTechSupportItemsProvider              | 1     |
+| com.parasoft.xtest.techsupport.TechSupportService                          | 1     |
+| com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences | 1     |
++ -------------------------------------------------------------------------- + ----- +
+================================================================================================
+PROFILER RESULTS
+================================================================================================
+
+License Profiler
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                  | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| LicenseModule.initializeModule                        | 1     | 1.447     | 1.447   | 1.447   | 1.447   |
+| LicenseService.isEnabled[Main]                        | 2     | 1.175     | 0.584   | 0.591   | 0.587   |
+| IntLicManager.getState[Selenic]                       | 4     | 1.173     | 0.0     | 0.589   | 0.293   |
+| IntLicManager.activateLicense                         | 1     | 0.59      | 0.59    | 0.59    | 0.59    |
+| IntLicManager.WAIT[main]                              | 1     | 0.584     | 0.584   | 0.584   | 0.584   |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread] | 1     | 0.583     | 0.583   | 0.583   | 0.583   |
+| IntLicManager.releaseLicenes                          | 1     | 0.217     | 0.217   | 0.217   | 0.217   |
+| IntLicManager.activateFinished                        | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
+| IntLicManager.getState[Selenic Report to DTP]         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.invokeAsyncCallsQueue                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Automation]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[Selenic Test Impact Analysis]  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Results-Upload]   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Change-Based-Testing]        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseServiceModules .statusChanged                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.checkFinished                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coverage]                    | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[Selenic Automation]            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 5.773s
+
+Async Call Profiler
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| ?                                           | 1     | 0.595     | 0.595   | 0.595   | 0.595   |
+| ? [main]                                    | 1     | 0.217     | 0.217   | 0.217   | 0.217   |
+| AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| InternalLicenseManager.invokeAsyncCall:1217 | 7     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.812s
+
+XRest Profiler
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                      | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| /licenseserver/api/v1     | 8     | 0.527     | 0.061   | 0.076   | 0.065   |
+| /grs/api/v1.6/dtpServices | 1     | 0.336     | 0.336   | 0.336   | 0.336   |
+| /grs/api/v1/dtpServices   | 1     | 0.065     | 0.065   | 0.065   | 0.065   |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.928s
+
+Coverage Profiler
++ ------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------ + ----- + --------- + ------- + ------- + ------- +
+| getGlobalStorage() | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
+| initializeMetadata | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
++ ------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.014s
+
+VM Info Profiler
++ ------ + ----- + --------- + ------- + ------- + ------- +
+| NAME   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------ + ----- + --------- + ------- + ------- + ------- +
+| Docker | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
++ ------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.003s
+
+Coverage Tool Profiler
++ -------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ -------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| CoverageRunner.run()                               | 1     | 11.878    | 11.878  | 11.878  | 11.878  |
+| CoverageFlowController.scanAppAndRuntimeCoverage() | 1     | 9.692     | 9.692   | 9.692   | 9.692   |
+| DevCoverageDataEngine.scanApplication()            | 1     | 9.563     | 9.563   | 9.563   | 9.563   |
+| AbstractTestableInputIterator.scanLocation()       | 294   | 5.187     | 0.0     | 2.608   | 0.017   |
+| GenerateCoverageFlowController.generateCoverage()  | 1     | 0.118     | 0.118   | 0.118   | 0.118   |
+| GenerateCoverageFlowController.processBinaries()   | 1     | 0.065     | 0.065   | 0.065   | 0.065   |
+| GenerateCoverageFlowController.closeReport()       | 1     | 0.04      | 0.04    | 0.04    | 0.04    |
++ -------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 36.543s
+================================================================================================
+MEMORY STATISTICS
+================================================================================================
+
++ -------------- + --------- +
+| Memory Metric  | Size [MB] |
++ -------------- + --------- +
+| Current memory | 13        |
+| Max memory     | 8508      |
+| Total memory   | 137       |
++ -------------- + --------- +
+================================================================================================
+LOG ISSUES
+================================================================================================
+
++ ------------- + ----- +
+| Logging Level | Count |
++ ------------- + ----- +
+| TRACE         | 0     |
+| TIME          | 0     |
+| DEBUG         | 192   |
+| INFO          | 922   |
+| WARN          | 9     |
+| ERROR         | 1     |
+| FATAL         | 0     |
++ ------------- + ----- +

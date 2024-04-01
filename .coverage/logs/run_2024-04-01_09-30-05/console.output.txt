@@ -1,0 +1,12 @@
+Parasoft Jtest Coverage 2023.2.1 (10.6.3.202312201250)
+
+Using parameters: 
+-app: target\parabank-3.0.0-SNAPSHOT.war
+-include: com\parasoft\parabank/**
+-report: coverage_report
+-showdetails
+-settings: D:\TestImpactAnalysis\parasoft_selenic_2024.1.1\selenic.properties
+-selenic
+-runtime: runtime_coverage
+
+Specified application path does not exist: target\parabank-3.0.0-SNAPSHOT.war

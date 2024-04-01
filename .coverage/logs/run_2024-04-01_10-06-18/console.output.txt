@@ -1,0 +1,40 @@
+Parasoft Jtest Coverage 2023.2.1 (10.6.3.202312201250)
+
+Using parameters: 
+-app: target\parabank-3.0.0-SNAPSHOT.war
+-include: com\parasoft\parabank/**
+-report: coverage_report
+-showdetails
+-settings: D:\TestImpactAnalysis\parasoft_selenic_2024.1.1\selenic.properties
+-selenic
+-runtime: D:\TestImpactAnalysis\parabank\runtime_coverage
+
+DTP Services: Loading available services from https://35.92.154.15:8443/grs/api/v1.6/dtpServices
+DTP Services: Registering the following services: [projects, staticAnalysisViolationsMetadataUpdate, dynamicAnalysisTestCasesMetadata, testConfigurationsExtended, rules, tools, buildReviews, priorities, testActions, staticAnalysisViolations, builds, staticAnalysisFindings, unbranchedResourcesSearch, reportedResourcesScmRepositories, localSettings, coverage, staticAnalysisViolationsMetadata, dynamicAnalysisTestCases, filters, ruleMapResources, license, dynamicAnalysisTestCasesMetadataUpdate, testConfigurationsUpload, testConfigurations]
+DTP Services: Loading available services from https://35.92.154.15:8443/grs/api/v1/dtpServices
+DTP Services: Registering the following services: [dataCollectorV2, testConfigurationsExtended, existingLocalSourceCopy, rules, tools, changeExplorer, priorities, staticAnalysisViolations, builds, metricsExplorer, violationsExplorer, reportedResourcesScmRepositories, localSettings, coverage, staticAnalysisViolationsMetadata, dynamicAnalysisTestCases, testExplorer, filters, dataCollector, coverageExplorer, ruleMapResources, license, testConfigurations, licenseServer, reportCenter]
+License: Initializing network license for Selenic 2024.0
+License: Activating Custom Edition
+License: Checking features
+License: Main Selenic feature: License is valid
+License: Automation feature: License is valid
+License: Test Impact Analysis feature: License is valid
+License: Activation finished: License is valid
+License: Machine id WIN32-5412bd70 (Default)
+[ 0%] > Coverage
+[ 0%] > Coverage > Computing application scope
+[17%]   Coverage > Computing application scope: 100% 
+[17%] < Coverage > Computing application scope: 100% 
+[17%] > Coverage > Collecting application data
+[17%]   Coverage > Collecting application data: 0
+[37%] < Coverage > Collecting application data
+[37%] > Coverage > Processing application data
+[65%] < Coverage > Processing application data: 100% 
+Unable to generate coverage report due to missing information about application code.
+Please review specified Application Under Test location and include/exclude patterns.
+Publishing reports to DTP is disabled, use report.dtp.publish setting to enable.
+4,084 covered input(s) not found in the application
+[65%] > Coverage > Finalizing reporters
+[75%] < Coverage > Finalizing reporters: 100% 
+Cleaning coverage data ...
+[100%] < Coverage
